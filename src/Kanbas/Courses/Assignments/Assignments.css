@@ -1,0 +1,31 @@
+#wd-assignments {
+  margin: 20px;
+}
+
+#wd-assignments .input-group-text {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
+
+#wd-assignments .btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+#wd-assignments .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+#wd-assignments .list-group-item {
+  border-left: 4px solid #28a745;
+}
+
+#wd-assignments .badge.bg-secondary {
+  font-size: 1rem;
+}
+
+#wd-assignments .text-decoration-none {
+  font-size: 1.25rem;
+  color: #007bff;
+}
