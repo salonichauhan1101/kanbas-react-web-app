@@ -33,6 +33,10 @@ const { pathname } = useLocation();
       <li className="nav-item">
       <a id="wd-github" href="https://github.com/salonichauhan1101/kanbas-react-web-app.git" className="nav-link">GitHub Repository</a>
       </li>
+
+      <li className="nav-item">
+            <a id="wd-render" href="https://kanbas-node-server-app-eeg2.onrender.com" className="nav-link">Render</a>
+            </li>
     </ul>
   );
 }
