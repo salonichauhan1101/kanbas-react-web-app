@@ -9,6 +9,8 @@ import { Navigate, Route, Routes , useParams, useLocation } from "react-router";
 import { FaAlignJustify } from 'react-icons/fa';
 import AssignmentsEditor from "./Assignments/Editor";
 import AssignmentEditor from "./Assignments/AddAssignment";
+import PeopleTable from "./People/Table";
+import PeopleDetails from "./People/Details";
 
 export default function Courses({ courses }: { courses: any[]; }) {
 const { cid } = useParams();
@@ -30,8 +32,11 @@ const { cid } = useParams();
             <Route path="Assignments" element={<Assignments />} />
             <Route path="Assignments/add" element={<AssignmentEditor/>}/>
             <Route path="Assignments/:id" element={<AssignmentsEditor/>}/>
-            {/*<Route path="Assignments/:aid" element={<AssignmentEditor />} />*/}
+            <Route path="People" element={<PeopleTable />} />
+            <Route path="People/:uid" element={<PeopleTable />} />
+
             <Route path="Grades" element={<Grades />} />
+
           </Routes>
         </div>
       </div>
