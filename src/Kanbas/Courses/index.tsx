@@ -34,7 +34,7 @@ const { cid } = useParams();
             <Route path="Assignments/:id" element={<AssignmentsEditor/>}/>
             <Route path="People" element={<PeopleTable />} />
             <Route path="People/:uid" element={<PeopleTable />} />
-
+{/*<Route path="People/:uid" element={<PeopleDetails />} />*/}
             <Route path="Grades" element={<Grades />} />
 
           </Routes>
